@@ -1,0 +1,11 @@
+#Spring configuration
+spring:
+  output:
+    ansi:
+      enabled: always
+
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/jsp/
+
